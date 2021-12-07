@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Roboto:wght@100;300;500;900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.back {
+    background-color: #303030;
+    color: #FDC800;
+}
+
+.container {
+    width: 70vw;
+    height: 100vh;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.list-song {
+    width: 100%;
+}
+
+.song {
+    padding: 1rem 2rem;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    flex:6;
+}
+
+.play .stop .download {
+    flex: 1;
+}
+
+.play {
+    cursor: pointer;
+}
+
+.stop {
+    cursor: pointer;
+}
